@@ -1,0 +1,30 @@
+{
+  "modmenu.description": "A command-based progress tracking mod",
+  "modmenu.name": "Simple Progress",
+
+  "command.simpleprogress.help": "Show help information",
+  "command.simpleprogress.add": "Add a progress goal",
+  "command.simpleprogress.list": "List all progresses",
+  "command.simpleprogress.view": "View progress details",
+  "command.simpleprogress.update": "Update progress",
+  "command.simpleprogress.delete": "Delete progress",
+  "command.simpleprogress.clear": "Clear all progresses",
+  "command.simpleprogress.stats": "Show statistics",
+
+  "message.simpleprogress.welcome": "Simple Progress v1.0.3 - Use /progress help for commands",
+  "message.simpleprogress.noprogress": "You don't have any progress records",
+  "message.simpleprogress.added": "Progress added",
+  "message.simpleprogress.updated": "Progress updated",
+  "message.simpleprogress.deleted": "Progress deleted",
+  "message.simpleprogress.cleared": "All progresses cleared",
+  "message.simpleprogress.notfound": "Progress not found",
+  "message.simpleprogress.completed": "Congratulations! Progress completed",
+  "message.simpleprogress.playeronly": "Only players can use this command",
+
+  "progress.type.kill": "Kill",
+  "progress.type.obtain": "Obtain",
+  "progress.type.build": "Build",
+
+  "key.simpleprogress.open": "Open Progress Interface",
+  "category.simpleprogress.main": "Simple Progress"
+}

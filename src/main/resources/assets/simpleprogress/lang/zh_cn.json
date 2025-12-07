@@ -1,0 +1,30 @@
+{
+  "modmenu.description": "一个基于命令的进度追踪模组",
+  "modmenu.name": "简单进度",
+
+  "command.simpleprogress.help": "显示帮助信息",
+  "command.simpleprogress.add": "添加一个进度目标",
+  "command.simpleprogress.list": "列出所有进度",
+  "command.simpleprogress.view": "查看进度详情",
+  "command.simpleprogress.update": "更新进度",
+  "command.simpleprogress.delete": "删除进度",
+  "command.simpleprogress.clear": "清除所有进度",
+  "command.simpleprogress.stats": "查看统计信息",
+
+  "message.simpleprogress.welcome": "简单进度 v1.0.3 - 使用 /progress help 查看命令",
+  "message.simpleprogress.noprogress": "你还没有任何进度记录",
+  "message.simpleprogress.added": "进度已添加",
+  "message.simpleprogress.updated": "进度已更新",
+  "message.simpleprogress.deleted": "进度已删除",
+  "message.simpleprogress.cleared": "所有进度已清除",
+  "message.simpleprogress.notfound": "未找到进度",
+  "message.simpleprogress.completed": "恭喜！进度已完成",
+  "message.simpleprogress.playeronly": "只有玩家可以使用此命令",
+
+  "progress.type.kill": "击杀",
+  "progress.type.obtain": "获得",
+  "progress.type.build": "建筑",
+
+  "key.simpleprogress.open": "打开进度界面",
+  "category.simpleprogress.main": "简单进度"
+}

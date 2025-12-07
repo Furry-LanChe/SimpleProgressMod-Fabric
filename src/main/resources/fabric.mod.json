@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "simpleprogress",
+  "version": "1.0.3",
+  "name": "Simple Progress",
+  "description": "A command-based progress tracking mod for Minecraft",
+  "authors": ["LanChe"],
+  "contact": {
+    "homepage": "https://lanche.vvvv.host",
+    "sources": "https://github.com/yourusername/simpleprogress"
+  },
+  "license": "MIT",
+  "icon": "assets/simpleprogress/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.lanche.simpleprogress.SimpleProgressMod"],
+    "client": ["com.lanche.simpleprogress.ClientInitializer"]
+  },
+  "mixins": [
+    "simpleprogress.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  },
+  "custom": {
+    "modmenu": {
+      "description": "A command-based progress tracking mod for Minecraft. Track your goals with simple commands!",
+      "links": {
+        "modmenu.discord": "https://discord.gg/yourdiscord",
+        "modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/simple-progress"
+      }
+    }
+  }
+}
